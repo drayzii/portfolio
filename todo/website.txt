@@ -1,0 +1,50 @@
+Logo (Shyaka)
+
+Dark/Light Theme
+
+Languages
+-> HTML, CSS, Sass, Javascript, Typescript
+
+Tools
+- Git
+- GraphQL
+- React.js
+- React Native
+- Node.js
+- Express.js
+- Nest.js
+- Bootstrap
+- TailwindCSS
+- Vercel
+- Netlify
+- Heroku
+- Vue.js
+- Vuetify
+- Nuxt.js
+- Next.js
+- ESNext
+
+Resume Page
+-> Downloadable, Ref. https://olaolu.dev/resume/
+
+Work Page (Add Tools/Technologies)
+- Nvoko
+- Artisthub
+- Ikiringo
+- Ingoma
+
+Projects
+- Spotify Profile
+- Spotify <> Youtube
+- Upvote Restaurants KGL
+- Whatsapp API, subscribe to sports updates
+
+- Show currently listening on Spotify
+
+Testimonials/Feedback
+- Derek Ruffner
+
+Contact Me
+- LinkedIn
+- Email (hello@shyaka.dev)
+- Telegram
