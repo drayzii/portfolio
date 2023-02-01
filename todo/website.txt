@@ -38,13 +38,40 @@ Projects
 - Spotify <> Youtube
 - Upvote Restaurants KGL
 - Whatsapp API, subscribe to sports updates
+- React Native app: Taskboard using Google Tasks API.... Create an orginisation boar (or store in our database) if google alows one workspace only
 
 - Show currently listening on Spotify
 
 Testimonials/Feedback
 - Derek Ruffner
+- Benoit Ngabonziza
+
+https://www.upwork.com/workwith/shyaka
 
 Contact Me
 - LinkedIn
 - Email (hello@shyaka.dev)
 - Telegram
+
+Domains to buy:
+- ingoma.app
+- imperium.rw
+
+Deploying:
+- citymoshi & vercel
+- ubusizi & vercel
+- Get Ikiringo fixed
+
+
+Experience:
+- Artisthub
+- Ikiringo
+- Nvoko
+- Cinetie
+- Imperium (Ingoma, Ubusizi, Ingoma)
+- Andela
+
+Projects:
+- Ingoma
+- Ubusizi
+- Upvote Restaurants KGL
