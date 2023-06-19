@@ -24,27 +24,56 @@ const Homepage = () => {
             </div>
           </div>
           <div className="h-[93vh] flex items-center">
-            <div className="basis-1/2">
-              <p>Hi,</p>
-              <p>I’m Shyaka Jonathan</p>
-              <p>I build Web applications</p>
-              <p>I’m a software engineer specializing in building and occasionally desining. I’m a software engineer specializing in building. I’m building and occasionally desining.</p>
-              <button>Recent work</button>
-              <div className="socials">
-                <span>a</span>
-                <span>a</span>
-                <span>a</span>
-                <span>a</span>
-                <span>a</span>
+            <div className="basis-1/2 px-[5%]">
+              <div className="flex">
+                <Image 
+                  src="/images/shades.svg"
+                  alt="" 
+                  width={0}
+                  height={0}
+                  style={{ width: '30px', height: 'auto' }} // optional
+                />
+                <div className="ml-[29px]">
+                  <p className="text-[60px] text-black font-[700] leading-tight">
+                    Hi,
+                  </p>
+                  <p
+                    className="text-[32px] text-black font-[700] mt-[25px] leading-tight bg-no-repeat"
+                    style={{ backgroundImage: "url('/images/brush-bg.svg')", backgroundPosition: '20px center' }}
+                  >
+                    I’m Jonathan Shyaka
+                  </p>
+                  <p className="text-[32px] text-orange font-[700] mt-[10px] leading-tight">
+                    I build Web applications
+                  </p>
+                  <p className="text-[24px] text-gray font-[400] mt-[25px] leading-tight">
+                    I’m a software engineer specializing in building and occasionally desining.
+                    I’m a software engineer specializing in building. I’m building and occasionally desining.
+                  </p>
+                </div>
+              </div>
+              <div className="ml-[45px] mt-[15px]">
+                <button className="bg-orange text-white py-[11px] px-[20px] rounded text-[24px] font-[500] leading-tight">
+                  Recent work
+                </button>
+                <div className="mt-[45px]">
+                  <span>a</span>
+                  <span>a</span>
+                  <span>a</span>
+                  <span>a</span>
+                  <span>a</span>
+                </div>
               </div>
             </div>
             <div className="basis-1/2 flex h-full">
-              <div className="basis-1/2 mt-[5vh]">
+              <div className="basis-1/2 mt-[10vh]">
                 <Image src="/images/hero.png" alt="" width="400" height="400" />
               </div>
               <div className="mt-auto flex-1 flex flex-col items-center">
-                <div className="email transform rotate-[270deg] origin-center -translate-y-20">hello@shyaka.dev</div>
-                <div className="line bg-gradient-to-b from-[#000] to-[#fff] h-[50vh] w-[5px]"></div>
+                <div className="transform rotate-[270deg] origin-center -translate-y-20 -translate-x-1 font-[500] text-[20px]">
+                  hello@shyaka.dev
+                </div>
+                <div className="bg-gradient-to-b from-[#000] to-[#fff] h-[50vh] w-[5px]"></div>
               </div>
             </div>
           </div>
