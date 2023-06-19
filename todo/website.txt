@@ -36,8 +36,11 @@ Work Page (Add Tools/Technologies)
 Projects
 - Spotify Profile
 - Spotify <> Youtube
+- Spotify Playlist creator, by providing filters to be applied to liked songs (Advanced search options)
+- Slack app for EOD reports, integrate with clickup & gitlab
 - Upvote Restaurants KGL
 - Whatsapp API, subscribe to sports updates
+- Memories App: Sync contacts, prompt to capture a memory when close to friend, focus on iOS
 - React Native app: Taskboard using Google Tasks API.... Create an orginisation boar (or store in our database) if google alows one workspace only
 
 - Show currently listening on Spotify
@@ -67,7 +70,7 @@ Experience:
 - Ikiringo
 - Nvoko
 - Cinetie
-- Imperium (Ingoma, Ubusizi, Ingoma)
+- Imperium (Ingoma, Ubusizi)
 - Lifestores Pharmacy
 - Andela
 - Native

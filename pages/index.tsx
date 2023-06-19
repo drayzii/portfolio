@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 const Homepage = () => {
   return (
@@ -7,44 +8,45 @@ const Homepage = () => {
         <title>Jonathan Shyaka</title>
       </Head>
       <div className="">
-        <div className="navbar flex justify-between items-center w-screen bg-gray-100 h-[7vh] px-10">
-          <div className="logo basis-8/12">Shyaka</div>
-          <div className="flex basis-4/12 bg-gray-200 justify-between">
-            <div className="">
-              Work
-            </div>
-            <div className="">
-              Projects
-            </div>
-            <div className="">
-              <div className="button">Resume</div>
-            </div>
-            <div className="theme">
-              <div className="switch">
+        <div
+          className="bg-cover bg-no-repeat"
+          style={{ backgroundImage: "url('/images/hero-background.png')" }}
+        >
+          <div className="navbar flex justify-between items-center w-screen h-[7vh] px-10 pt-4">
+            <div className="logo basis-9/12 font-[Satisfy] font-[400] text-[40px]">Shyaka</div>
+            <div className="flex basis-3/12 justify-between text-[20px] font-[500]">
+              <div className="">Work</div>
+              <div className="">Projects</div>
+              <div className="">Resume</div>
+              <div className="theme">
                 <input type="checkbox" name="" id="" />
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div className="hero h-[93vh] bg-gray-50 flex items-center">
-          <div className="intro basis-1/2">
-            <p>Hi,</p>
-            <p>I’m Shyaka Jonathan</p>
-            <p>I build Web applications</p>
-            <p>I’m a software engineer specializing in building and occasionally desining. I’m a software engineer specializing in building. I’m building and occasionally desining.</p>
-            <button>Recent work</button>
-            <div className="socials">
-              <span>a</span>
-              <span>a</span>
-              <span>a</span>
-              <span>a</span>
-              <span>a</span>
+          <div className="h-[93vh] flex items-center">
+            <div className="basis-1/2">
+              <p>Hi,</p>
+              <p>I’m Shyaka Jonathan</p>
+              <p>I build Web applications</p>
+              <p>I’m a software engineer specializing in building and occasionally desining. I’m a software engineer specializing in building. I’m building and occasionally desining.</p>
+              <button>Recent work</button>
+              <div className="socials">
+                <span>a</span>
+                <span>a</span>
+                <span>a</span>
+                <span>a</span>
+                <span>a</span>
+              </div>
             </div>
-          </div>
-          <div className="basis-1/2 bg-gray-100">
-            pic here
+            <div className="basis-1/2 flex h-full">
+              <div className="basis-1/2 mt-[5vh]">
+                <Image src="/images/hero.png" alt="" width="400" height="400" />
+              </div>
+              <div className="mt-auto flex-1 flex flex-col items-center">
+                <div className="email transform rotate-[270deg] origin-center -translate-y-20">hello@shyaka.dev</div>
+                <div className="line bg-gradient-to-b from-[#000] to-[#fff] h-[50vh] w-[5px]"></div>
+              </div>
+            </div>
           </div>
         </div>
 
