@@ -1,6 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
+
+import SocialIcon from '../components/SocialIcon';
+
 const Homepage = () => {
   return (
     <>
@@ -12,14 +18,21 @@ const Homepage = () => {
           className="bg-cover bg-no-repeat"
           style={{ backgroundImage: "url('/images/hero-background.png')" }}
         >
-          <div className="navbar flex justify-between items-center w-screen h-[7vh] px-10 pt-4">
+          <div className="navbar flex justify-between items-center w-screen h-[7vh] px-10 pt-3">
             <div className="logo basis-9/12 font-[Satisfy] font-[400] text-[40px]">Shyaka</div>
-            <div className="flex basis-3/12 justify-between text-[20px] font-[500]">
-              <div className="">Work</div>
-              <div className="">Projects</div>
-              <div className="">Resume</div>
-              <div className="theme">
-                <input type="checkbox" name="" id="" />
+            <div className="flex justify-between items-center text-[20px] font-[500]">
+              {/* <div className="cursor-pointer">Work</div>
+              <div className="cursor-pointer">Projects</div> */}
+              <div className="cursor-pointer px-2 py-2 border border-solid border-black rounded-[5px] mr-10">
+                <span className="h-[28px] flex items-center">Resume</span>
+              </div>
+              <div className="flex p-1 bg-gray-light rounded">
+                <div className="cursor-pointer bg-blue-light w-[30px] h-[30px] flex items-center justify-center m-1 rounded">
+                  <FontAwesomeIcon icon={faSun} className="text-black" />
+                </div>
+                <div className="cursor-pointer w-[30px] h-[30px] flex items-center justify-center m-1 rounded">
+                  <FontAwesomeIcon icon={faMoon} className="text-black" />
+                </div>
               </div>
             </div>
           </div>
@@ -56,12 +69,10 @@ const Homepage = () => {
                 <button className="bg-orange text-white py-[11px] px-[20px] rounded text-[24px] font-[500] leading-tight">
                   Recent work
                 </button>
-                <div className="mt-[45px]">
-                  <span>a</span>
-                  <span>a</span>
-                  <span>a</span>
-                  <span>a</span>
-                  <span>a</span>
+                <div className="mt-[45px] flex">
+                  <SocialIcon icon={faLinkedin} />
+                  <SocialIcon icon={faTwitter} />
+                  <SocialIcon icon={faGithub} />
                 </div>
               </div>
             </div>
@@ -70,7 +81,7 @@ const Homepage = () => {
                 <Image src="/images/hero.png" alt="" width="400" height="400" />
               </div>
               <div className="mt-auto flex-1 flex flex-col items-center">
-                <div className="transform rotate-[270deg] origin-center -translate-y-20 -translate-x-1 font-[500] text-[20px]">
+                <div className="transform rotate-[270deg] origin-center -translate-y-20 -translate-x-1 font-[500] text-[22px]">
                   hello@shyaka.dev
                 </div>
                 <div className="bg-gradient-to-b from-[#000] to-[#fff] h-[50vh] w-[5px]"></div>
@@ -79,7 +90,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="skillset flex flex-col items-center my-20">
+        <div className="flex flex-col items-center my-20">
           <h2>Tools I’ve worked with so far</h2>
           <div className="cards flex my-10 bg-gray-100">
             <div className="card bg-gray-300 mx-5">
